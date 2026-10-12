@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos electorales
+data/raw/
+data/processed/
+
+# Modelos entrenados
+models/
+
+# Variables privadas
+.env
+
+# Archivos temporales
+*.log
