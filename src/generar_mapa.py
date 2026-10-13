@@ -19,6 +19,7 @@ import geopandas as gpd
 import folium
 from folium.plugins import DualMap
 
+
 shp, csv, out = sys.argv[1], sys.argv[2], sys.argv[3]
 os.makedirs(out, exist_ok=True)
 
@@ -83,7 +84,7 @@ def capa(mapa, campo, abst, titulo):
             fields=["MPIONOM", "EDONOM", abst, campo, "votos_extra"],
             aliases=["Municipio", "Estado", "Abstencion proyectada 2027", "Semaforo", "Votantes adicionales"]),
     ).add_to(mapa)
-dm = DualMap(location=[23.6, -102.5], zoom_start=5, tiles="OpenStreetMap")
+dm = DualMap(location=[23.6, -102.5], zoom_start=5, tiles=None)
 capa(dm.m1, "semaforo_sin", "abst_sin", "Sin intervencion")
 capa(dm.m2, "semaforo_con", "abst_con", "Con intervencion")
 leyenda = ('<div style="position:fixed;top:10px;left:50px;z-index:9999;background:white;padding:8px 12px;'

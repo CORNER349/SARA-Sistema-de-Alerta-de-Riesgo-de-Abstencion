@@ -5,9 +5,9 @@ Uso:
 Ejemplo:
     python agregar_ccpc.py DatosAbiertos_DECEyEC_ConteosCensales2021 agg_2021.csv
 """
+import os
 import sys
 import glob
-import os
 import pandas as pd
 
 carpeta, salida = sys.argv[1], sys.argv[2]
