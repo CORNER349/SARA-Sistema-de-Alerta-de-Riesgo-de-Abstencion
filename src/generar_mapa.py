@@ -1,10 +1,5 @@
 """Genera el mapa de escenarios (sin vs con intervencion) a partir del semaforo municipal.
 
-Requisitos:  pip install geopandas folium pyogrio pandas
-
-Uso:
-    python generar_mapa.py municipios_inegi.geojson semaforo_municipal_2027.csv SALIDA
-
 - Capa municipal con columnas CVE_ENT, CVE_MUN, NOMGEO: puede ser municipios_inegi.geojson
   (incluido, Marco Geoestadistico del INEGI mayo 2021, 2,436 municipios) o el 00mun.shp mas
   reciente de inegi.org.mx -> Geografia -> Marco Geoestadistico (incluye municipios nuevos).
