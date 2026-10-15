@@ -11,7 +11,6 @@ __pycache__/
 
 # Datos electorales
 data/raw/
-data/processed/
 
 # Modelos entrenados
 models/
@@ -21,3 +20,7 @@ models/
 
 # Archivos temporales
 *.log
+# Respaldos ZIP locales
+/INE-Hakaton-codigo.zip
+/INE-Hakaton-revision.zip
+/datos_procesados_ine.zip
