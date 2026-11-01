@@ -1,6 +1,6 @@
 # Hackathon INE 2026 — Reto 2
 
-## Predicción y escenarios de riesgo de abstención electoral
+## SARA (Sistema de Alerta de Riesgo de Abstencion)
 
 **Equipo:** Tlacuvoz
 
